@@ -1,6 +1,6 @@
 var bird;
 var pipes = [];
-var score = -1;
+var score = 0;
 var gameState = 1;
 var backgroundImg
 
@@ -46,7 +46,7 @@ function draw() {
     pipes.push(new Pipe());
   }
    
-  if (frameCount % 200 == 75) {
+  if (frameCount % 200 == 85) {
     score++;
   }
 
