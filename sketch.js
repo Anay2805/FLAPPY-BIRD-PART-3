@@ -44,6 +44,9 @@ function draw() {
 
   if (frameCount % 200 == 0) {
     pipes.push(new Pipe());
+  }
+   
+  if (frameCount % 200 == 75) {
     score++;
   }
 
