@@ -1,6 +1,6 @@
 var bird;
 var pipes = [];
-var score = -1;
+var score = -3;
 var gameState = 1;
 var backgroundImg
 
