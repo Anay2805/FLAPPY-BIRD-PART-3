@@ -16,7 +16,7 @@ function Pipe() {
   };
 
   this.show = function() {
-    fill(85, 215, 85);
+    fill(0, 130,0);
     rect(this.x, 0, this.w, this.top);
     rect(this.x, height - this.bottom, this.w, this.bottom);
   };
