@@ -61,7 +61,7 @@ if(score > -1){
 fill(255, 255, 255);
 textFont('Monaco');
 textSize(20);
-text("Score: " + score, 500, 60);
+text("Score: " + score-2, 500, 60);
 }
 }
 
